@@ -46,6 +46,7 @@ class SocketWrapper {
 
     connected = false;
     _is_server = false;
+    _socket.setFastSend(true);
   }
 
   /**
